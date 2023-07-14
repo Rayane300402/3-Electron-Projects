@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photon</title>
+  <link rel="stylesheet" href="css/photon.css">
+  <style>
+    textarea {
+      width: 100%;
+      height: 100%;
+      resize: none;
+      border: none;
+      outline: none;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="window">
+    <header class="toolbar toolbar-header">
+      <div class="toolbar-actions">
+        <div class="btn-group">
+          <button class="btn btn-default" id="increase">
+            <span class="icon icon-plus"></span>
+          </button>
+          <button class="btn btn-default" id="decrease">
+            <span class="icon icon-minus"></span>
+          </button>
+
+        </div>
+
+
+        <button class="btn btn-default pull-right" id="save" onclick="saveText()">
+          <span class="icon icon-download icon-text"></span>
+          Save
+        </button>
+      </div>
+    </header>
+
+    <div class="window-content">
+      <textarea id="textarea">
+            </textarea>
+    </div>
+  </div>
+  <script src="js/index.js">
+  </script>
+</body>
+
+</html>
